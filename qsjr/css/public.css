@@ -1,0 +1,146 @@
+.w1366{
+	width: 1366px;
+	margin: 0 auto;
+	display: block;
+}
+.w100{
+	width: 100%;
+	min-width: 1366px;
+	margin: 0 auto;
+}
+.header{
+	width: 1366px;
+	height: 200px;
+	background: url(../img/header_bg.png) 100% 100% no-repeat;
+	position: relative;
+}
+.header .header1{
+	position: absolute;
+	height: 200px;
+	width: 1366px;
+	background: black;
+	opacity: 0.1;
+	z-index: 1
+}
+.header .header2{
+	position: absolute;
+	height: 200px;
+	width: 1200px;
+	margin-left: 83px;
+	z-index: 2;
+}
+.header .header2 img{
+	position: absolute;
+	width: 195px;
+	height: 48px;
+	margin-top: 46px;
+}
+.header .header2 dl{
+	margin-left: 552px;
+}
+.header .header2-d{
+	float: left;
+	width: 108px;
+	height: 44px;
+	margin-top: 60px;	
+	font-size: 20px;
+	border-bottom: 3px #706967 solid;
+	text-align: center;
+	line-height: 44px;
+}
+.header .header2-d a{
+	color: #666;
+	font-family: "Microsoft Yahei";
+}
+.header .header2-d:hover{
+	border-bottom: 3px red solid;
+}
+.header .header2-d a:hover{
+	color: red;
+	text-decoration: underline;
+}	
+.header .header2-1 a{
+	display: block;
+	float: left;
+	margin-top: 55px;
+	font-size: 16px;
+	color: white;
+	font-family: "Microsoft Yahei";
+}
+.header .header2-1 a:hover{
+	text-decoration: underline;
+}
+.header .header2-1 i{
+	display: block;
+	float: left;
+	width: 10px;
+	height: 10px;
+	margin-top: 62px;
+	margin-left: 5px;
+	margin-right: 5px;
+	background: url(../img/contnet6.png) -122px -100px no-repeat;
+}
+.header .header3{
+	position: absolute;
+	width: 1366px;
+	height: 60px;
+	background: black;
+	margin-top: 140px;
+	opacity: 0.5;
+	z-index: 1;
+}
+
+
+
+
+
+
+
+
+.footer div.footer{
+	width: 1366px;
+	height: 167px;
+}
+.footer .footer1{
+	float: left;
+	margin-left: 110px;
+	margin-top: 42px;
+	width: 195px;
+	height: 48px;
+	background: url(../img/title.png) no-repeat;
+	border-right: 3px red solid;
+	padding-left: 10px;
+}
+.footer .footer2{
+	float: left;
+	margin-left: 300px;
+	margin-top: 35px;
+	width: 547px;
+	height: 67px;
+}
+.footer .footer3{
+	float: right;
+	margin-right: 70px;
+	margin-top: 35px;
+	width: 70px;
+	height: 70px;
+	background: url(../img/erweima.png);
+}
+
+.footer .footer2-1{
+	color: #8c8c8d;
+	text-align: right;
+	font-size: 16px;
+	line-height: 22px;
+	font-family: "Microsoft Yahei";
+}
+.footer .footer2-1 a{
+	color: #8c8c8d;
+}
+.footer .footer2-1 a:hover{
+	color: #8c8c8d;
+	font-size: 16px;
+	line-height: 24px;
+	font-family: "Microsoft Yahei";
+	text-decoration: underline;
+}

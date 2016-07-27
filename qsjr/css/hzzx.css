@@ -1,0 +1,228 @@
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.content{
+	width: 1200px;
+	height: 1450px;
+	margin: 0 auto;
+	margin-top: 35px;
+	font-family: "Microsoft Yahei";
+}
+.content .content1{
+	height: 410px;
+	margin-bottom: 90px;
+}
+.content .content1-1{
+	float: left;
+	width: 600px;
+	height: 410px;
+	background: url(../img/hzzx1.png);
+}
+.content .content1-2{
+	float: left;
+	width: 600px;
+	height: 410px;
+	background: #eaeaea;
+}
+.content .content1-2 h4{
+	margin-top: 20px;
+	text-align: right;
+	font-size: 20px;
+}
+.content .content1-2 small{
+	width: 4px;
+	height: 40px;
+	background: url(../img/contnet7.png) right no-repeat ;
+	margin-right: 10px;
+	padding-right: 10px;
+	color: #8e8d8d;
+	word-spacing: -4px;
+}
+.content1-2-1 .content1-2-1-i1{
+	display: block;
+	margin-top: 30px;
+	margin-left: 18px;
+	width: 16px;
+	height: 18px;
+	background: url(../img/contnet6.png) -80px -75px no-repeat;
+}
+.content1-2-1 span{
+	display: block;
+	width: 500px;
+	margin-top: 20px;
+	margin-left: 50px;
+	font-size: 14px;
+	color: #9b9b9b;
+	line-height: 20px;
+}
+.content1-2-1 .content1-2-1-i2{
+	display: block;
+	margin-right: 18px;
+	width: 16px;
+	height: 18px;
+	background: url(../img/contnet6.png) -80px -103px no-repeat;
+	float: right;
+}
+.content .content2{
+	height: 360px;
+}
+.content2 .content2-1{
+	float: left;
+	margin-left: 30px;
+	width: 263px;
+	height: 360px;
+}
+.content2 .content2-1 img{
+	float: left;
+	width: 263px;
+	height: 150px;
+}
+.content2 dl:hover{
+	width: 260px;
+    height: 200px;
+    border: 1px red solid;
+    margin-top: 148px;
+}   
+.content2-1-d1{
+	float: left;
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 40px;
+	margin-right: 40px;
+	color: #505050;
+	font-size: 14px;
+}
+.content2-1-d2{
+	float: left;
+	width: 200px;
+	height: 60px;
+	line-height: 20px;
+	margin-left: 40px;
+	color: #9b9b9b;
+	font-size: 12px;
+}
+.content2-1-d3{
+	float: left;
+    	margin-top: 10px;
+    	width: 64px;
+    	height: 20px;
+    	margin-left: 40px;
+    	color: #9b9b9b;
+    	font-size: 12px;
+    	background: url();
+    	border: 1px #9b9b9b solid;
+    	border-radius: 10px;
+    	text-align: center;
+    	line-height: 20px;
+}
+.content2 .content2-2{
+	float: left;
+	margin-left: 30px;
+	width: 263px;
+	height: 360px;
+}
+.content2 .content2-2 img{
+	float: left;
+	width: 263px;
+	height: 150px;
+}
+.content2 .content2-3{
+	float: left;
+	margin-left: 30px;
+	width: 263px;
+	height: 360px;
+}
+.content2 .content2-3 img{
+	float: left;
+	width: 263px;
+	height: 150px;
+}
+.content2 .content2-4{
+	float: left;
+	margin-left: 30px;
+	width: 263px;
+	height: 360px;
+}
+.content2 .content2-4 img{
+	float: left;
+	width: 263px;
+	height: 150px;
+}
+.content .content3{
+	height: 80px;
+	font-size: 20px;
+	color: #535353;
+	line-height: 80px;
+	margin-left: 30px;
+}
+.content .content4{
+	height: 90px;
+	background: url(../img/contnet7.png) no-repeat;
+	font-size: 22px;
+	color: #535353;
+	line-height: 44px;
+	margin-left: 30px;
+	padding-left: 10px;
+}
+.content .content5{
+	position: relative;
+	height: 350px;
+}
+.content .content5-1{
+	position: absolute;
+	width: 24px;
+	height: 36px;
+	top: 151px;
+	left: 60px;
+	background: url(../img/btn.png) 0 0 no-repeat;
+}
+.content .content5-1:hover{
+	background: url(../img/btn.png) 0 -46px no-repeat;
+}
+.content .content5-2{
+	position: absolute;
+	left: 90px;
+	width: 1016px;
+	height: 350px;
+}
+.content .content5-2 ul{
+	list-style: none;
+}
+.content5-2-li1{
+	position: absolute;
+	width: 508px;
+	height: 285px;
+	background: url(../img/hzzx6.png);
+	z-index: 1;
+}
+.content5-2-li2{
+	position: absolute;
+	left: 508px;
+	width: 508px;
+	height: 285px;
+	background: url(../img/hzzx7.png);
+	z-index: 2;
+}
+.content5-2-li3{
+	position: absolute;
+	left: 254px;
+	top: 70px;
+	width: 508px;
+	height: 285px;
+	background: url(../img/hzzx8.png);
+	z-index: 2;
+}
+.content .content5-3{
+	position: absolute;
+	width: 24px;
+	height: 36px;
+	top: 151px;
+	right: 60px;
+	background: url(../img/btn.png) -46px 0 no-repeat;
+}
+.content .content5-3:hover{
+	background: url(../img/btn.png) -46px -46px no-repeat;
+}

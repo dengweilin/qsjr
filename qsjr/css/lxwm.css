@@ -1,0 +1,26 @@
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.content{
+	width: 1200px;
+	height: 450px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.content .content1{
+	width: 1200px;
+	height: 60px;
+	font-size: 20px;
+	color: #000000;
+	font-family: "Microsoft Yahei";
+	background: url(../img/contnet7.png) no-repeat;
+	padding-left: 10px;
+	line-height: 40px;
+}
+.content .content2{
+	width: 1200px;
+	height: 342px;
+	background: url(../img/lxwm1.jpg);
+}

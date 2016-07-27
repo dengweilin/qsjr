@@ -1,0 +1,134 @@
+.clear:after{
+	content: "";
+	display: block;
+	clear:both;
+}
+.content{
+	position: relative;
+	width: 1200px;
+	height: 1100px;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+.content .content-1{
+	position: absolute;
+	width: 1200px;
+	height: 200px;
+	background: url(../img/gsxwbanner.png);
+	z-index: 1;
+}
+.content .content-2{
+	position: absolute;
+	width: 1040px;
+	height: 980px;
+	margin-top: 120px;
+	margin-left: 80px;
+	z-index: 2;
+}
+.content .content-2-1{
+	float: left;
+	width: 260px;
+}
+.content .content-2-1-d{
+	display: block;
+	float: left;
+	width: 260px;
+	height: 90px;
+	background: #9b9a9a;
+	border-bottom: 1px gray solid;
+	color: white;
+	text-align: center;
+	padding-top: 40px;
+	font-size: 20px;
+	font-family: "Microsoft Yahei";
+}
+.content .content-2-1-d:hover{
+	background: red;
+}
+.content .content-2-2{
+	float: left;
+	width: 780px;
+	height: 130px;
+}
+.content .content-2-2-d{
+	display: block;
+	float: left;
+	width: 260px;
+	height: 90px;
+	background: #edd3a3;
+	border-bottom: 1px gray solid;
+	color: white;
+	text-align: center;
+	padding-top: 40px;
+	font-size: 20px;
+	font-family: "Microsoft Yahei";
+}
+.content .content-2-2-d:hover{
+	background: red;
+}
+.content .content-2-3{
+	float: left;
+	margin-left: 40px;
+	width: 740px;
+	height: 780px;
+}
+.content .content-2-3-d{
+	display: block;
+	float: left;
+	width: 740px;
+	height: 150px;
+	border-bottom: 1px gray solid;
+	padding-top: 20px;
+	line-height: 25px;
+	font-size: 14px;
+	color: #9b9b9b;
+	font-family: "Microsoft Yahei";
+}
+.content .content-2-3-d a{
+	color: #434343;
+	font-size: 16px;
+}
+.content .content-2-3-d a:hover{
+	text-decoration: underline;
+}
+.content .content-2-3-d-i1{
+	float: left;
+	width: 51px;
+	height: 28px;
+	background: url(../img/gsxw1.png);
+	margin-top: 10px;
+}
+.content .content-2-3-d-i2{
+	float: left;
+	margin-top: 13px;
+}
+.content .content-2-3-d-i2 a{
+	font-size: 14px;
+	color: #efd5a3;	
+}
+.content .content-2-3-d-i3{
+	float: right;
+	width: 36px;
+	height: 45px;
+	background: url(../img/gsxw2.png);
+}
+.content .content-2-3-dmore{
+	display: block;
+	float: left;
+	width: 150px;
+	height: 50px;
+	border: 1px red solid;
+	color: red;
+	font-size: 24px;
+	line-height: 50px;
+	margin-top: 25px;
+	padding-left: 50px;
+	margin-left: 270px;
+}
+.content-2-3-dmores{
+	border: 1px red solid;
+	text-align: center;
+}
+.content .content-2-3-dmore:hover{
+	text-decoration: underline;
+}
